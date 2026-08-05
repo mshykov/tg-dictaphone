@@ -1,0 +1,32 @@
+
+  - Гілки, чия робота точно вже влита (MR merged):
+  chore/update-tooling (!12),
+  docs/readme-refresh (!9),
+  fix/flaky-test-retry (!11), feat/export-command
+  (!8) — локальні SHA різняться лише через squash-merge
+  - feat/import-contract — worktree відсутній
+  (prunable), гілка вже в main
+
+  Єдиний реальний кандидат на непушнуту роботу:
+  chore/conventions-check — 1 коміт chore: enforce commit
+  conventions (23.05.2026), upstream ніколи не
+  було, MR у списку немає, зміни (ci.yml +
+  scripts/check.sh, 194 додані рядки) відсутні
+  в origin/main.
+
+  Чого не встиг: підтвердити, що зміни
+  chore/conventions-check не потрапили в main іншим шляхом, і
+  перевірити гілки з закритими MR (chore/lint-cleanup !5,
+  feat/failover !7,
+  feat/weekly-report !6) — вони на віддаленому
+  боці є, тож не втрачені, але їхня робота в main не влита.
+
+  Скажи, коли продовжити — і чи цікавлять інші репозиторії,
+  чи лише цей.
+
+✻ Churned for 18s
+
+───────────────────────────────────────────────────────────────────
+❯
+───────────────────────────────────────────────────────────────────
+  ⏸ manual mode on · ? for shortcuts · ← for agents

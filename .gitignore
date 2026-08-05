@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# секрети живуть у ~/.config/tgbot.env — НІКОЛИ не в репозиторії
+tgbot.env
+*.env
+!tgbot.env.example
