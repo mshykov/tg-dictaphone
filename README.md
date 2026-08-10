@@ -1,8 +1,17 @@
 # tg-dictaphone
 
 Telegram як голосовий/текстовий пульт до tmux-сесії з агентом (Claude Code)
-на твоєму Mac. v2 — повний рефакторинг після аудиту v1
-(36 виправлених проблем; список — `TG_DICTAPHONE_ISSUES.md` у нотатках).
+на твоєму Mac. v2 — повний рефакторинг після аудиту v1.
+
+📄 **Документація:** [`docs/HANDOFF.md`](docs/HANDOFF.md) — поточний стан і
+що робити далі · [`docs/NEXT_SESSION_PROMPT.md`](docs/NEXT_SESSION_PROMPT.md) —
+промт для нової сесії + чек-лист приймання ·
+[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — інваріанти й чому код такий ·
+[`TG_DICTAPHONE_ISSUES.md`](TG_DICTAPHONE_ISSUES.md) — аудит v1 (36 проблем).
+
+> ⚠️ **Статус: v2 ще не проходив E2E-прогін проти живого Telegram.**
+> Перевірені імпорти, компіляція й парсер (16/16 тестів). Перед
+> перемиканням зупини v1 — див. `docs/HANDOFF.md`.
 
 ## Що вміє
 
