@@ -6,3 +6,6 @@ __pycache__/
 tgbot.env
 *.env
 !tgbot.env.example
+
+# Local-only notes and secrets — never committed
+_do-not-commit/
