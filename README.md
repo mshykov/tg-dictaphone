@@ -68,11 +68,11 @@ cp tgbot.env.example ~/.config/tgbot.env && chmod 600 ~/.config/tgbot.env
 <plist version="1.0"><dict>
   <key>Label</key><string>com.maksym.tg-dictaphone</string>
   <key>ProgramArguments</key><array>
-    <string>/Users/maksymshykov/.venvs/tgbot/bin/python</string>
+    <string>/Users/mshykov/.venvs/tgbot/bin/python</string>
     <string>-m</string><string>tg_dictaphone</string>
   </array>
   <key>WorkingDirectory</key>
-  <string>/Users/maksymshykov/Projects/Personal/tg-dictaphone</string>
+  <string>/Users/mshykov/Projects/Personal/tg-dictaphone</string>
   <key>EnvironmentVariables</key><dict>
     <!-- launchd не бачить brew PATH — tmux/ffmpeg живуть тут -->
     <key>PATH</key>
